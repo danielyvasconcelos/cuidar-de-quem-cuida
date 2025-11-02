@@ -142,7 +142,7 @@ const Index = () => {
               title="1. Meu Cuidado Pessoal"
               subtitle="Antes de cuidar, eu preciso estar bem."
               icon={<Coffee />}
-              reminder='Lembrete PNL: "Pequenos cuidados constroem grandes forças."'
+              reminder='"Pequenos cuidados constroem grandes forças."'
             >
               {personalCareItems.map((item) => (
                 <ChecklistItem
@@ -160,7 +160,7 @@ const Index = () => {
               title="2. Minha Rotina com Leveza"
               subtitle="Eu posso planejar, mas também posso ajustar."
               icon={<Sun />}
-              reminder="Lembrete AT: Meu 'Adulto' pode equilibrar o que o 'Pai/Mãe protetor(a)' quer fazer e o que minha 'Criança' precisa sentir."
+              reminder="Meu 'Adulto' pode equilibrar o que o 'Pai/Mãe protetor(a)' quer fazer e o que minha 'Criança' precisa sentir."
             >
               {routineItems.map((item) => (
                 <ChecklistItem
@@ -178,7 +178,7 @@ const Index = () => {
               title="3. Minhas Relações e Apoio"
               subtitle="Eu não estou só — posso compartilhar o peso."
               icon={<Users />}
-              reminder='Lembrete PNL: "Quando acolho minhas emoções, abro espaço para a calma."'
+              reminder='"Quando acolho minhas emoções, abro espaço para a calma."'
             >
               {relationshipItems.map((item) => (
                 <ChecklistItem
